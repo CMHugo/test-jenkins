@@ -14,5 +14,7 @@ COPY src/requirements.txt /opt/app
 RUN pip install -r /opt/app/requirements.txt
 COPY docker-entrypoint.sh /
 
+EXPOSE 5000
+
 #ejecutar la app
 ENTRYPOINT "/docker-entrypoint.sh"
