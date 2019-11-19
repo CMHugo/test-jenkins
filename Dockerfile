@@ -10,7 +10,7 @@ RUN apt-get update && apt-get upgrade -y
 RUN apt-get install python python-pip -y
 RUN mkdir /opt/app
 COPY src/main.py /opt/app/
-COPY src/requirements.txt /opt/app
+COPY requirements.txt /opt/app
 RUN pip install -r /opt/app/requirements.txt
 COPY docker-entrypoint.sh /
 
