@@ -1,5 +1,5 @@
 //comment
-Jenkinsfile (Declarative Pipeline)
+//Jenkinsfile (Declarative Pipeline)
 pipeline {
     agent any //usar cualquier agente de jenkins, porque podemos tener esclavos para lanzar diferentes tipos de aplicaciones
 
