@@ -12,7 +12,7 @@ pipeline {
         stage('CreateVirtualEnv') {//creacion del entorno virtual de python
             steps {
                 sh '''
-                    bash -c "virtualenv  entorno_virual && source entorno_virtual/bin/activate"
+                    bash -c "virtualenv  entorno_virtual && source entorno_virtual/bin/activate"
                 '''
             }
         }
